@@ -25,7 +25,7 @@
 
 .header-image {
     position: relative;
-    background-image: url('images/bg4.webp');
+    background-image: url('images/bg4.png');
     /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -182,7 +182,58 @@
     color: #ba160a;
 }
 
+/* Center and style the signup form */
+.signup-section {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
 
+.signup-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff9800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #ffb74d;
+}
 
 
         
