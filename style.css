@@ -82,7 +82,12 @@
 }
 
 .menu-section {
-    padding: 40px 0;
+    padding: 50px 100px;
+    width: 100%;
+}
+
+.menu-heading{
+    font-weight: 800;
 }
 
 .card {
